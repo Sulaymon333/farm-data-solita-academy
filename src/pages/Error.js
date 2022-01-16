@@ -1,7 +1,16 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Error = () => {
-    return <div>error page</div>;
+    return (
+        <section className='error-page section'>
+            <div className='error-container center'>
+                <h1>Oops! it's a Dead End</h1>
+                <Link to='/' className='btn btn-primary'>
+                    back home
+                </Link>
+            </div>
+        </section>
+    );
 };
-
 export default Error;
