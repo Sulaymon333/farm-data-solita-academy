@@ -1,17 +1,21 @@
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+
 import './App.css';
+import FarmInfo from './pages/FarmInfo';
+import FarmDetail from './pages/FarmDetail';
+import FarmStats from './pages/FarmStats';
+import Error from './pages/Error';
 
 function App() {
     return (
-        <div className='App'>
-            <header className='App-header'>
-                <p>
-                    Edit <code>src/App.js</code> and save to reload.
-                </p>
-                <a className='App-link' href='https://reactjs.org' target='_blank' rel='noopener noreferrer'>
-                    Learn React
-                </a>
-            </header>
-        </div>
+        <Router>
+            <Routes>
+                <Route exact path='/' element={<FarmInfo />} />
+                <Route exact path='/v1/farms/:id' element={<FarmDetail />} />
+                <Route exact path='/v1/farms/:id/stats' element={<FarmStats />} />
+                <Route path='*' element={<Error />} />
+            </Routes>
+        </Router>
     );
 }
 
