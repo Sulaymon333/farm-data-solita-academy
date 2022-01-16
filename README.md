@@ -29,3 +29,8 @@ This project is licensed under the MIT License - see the [LICENSE](./LICENSE) fi
 -   You can view OpenApi-documentation from http://localhost:8080
 -   Make your react app points to the right base Url http://localhost:8080
 -   For CORS errors set `proxy:"http://localhost:8080"` in your react app package.json file and add `{ mode: 'cors' }` for your fetch API as well.
+
+## TODO
+
+-   Show data in graph
+-   Implement tests (fex. React testing library)
