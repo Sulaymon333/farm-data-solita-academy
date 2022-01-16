@@ -1,6 +1,6 @@
 # Farm data Solita Academy task
 
-This is the solution to Solita Academy farm data task. This app is the frontend for displaying data from different farms. It shows all the available farms in the homepage, detail page for each farm and statistics data for each farm as well.
+This is the solution to Solita Academy farm data task. This app is the frontend for displaying data from different farms. It shows all the available farms in the homepage, detail page for each farm and statistics data for each farm as well. The entire app is fully responsive.
 
 ## Demo Picture
 
@@ -12,10 +12,10 @@ Sulaymon Tajudeen
 
 ## Tech Stack
 
--   React
--   CSS
--   React Router DOM
--   Mui Datatable
+-   React - js library for building scalable and performant UI
+-   CSS - flex technology for responsive app layout
+-   React Router DOM - for routing and navigation
+-   Mui Datatable - for a fully responsive table
 
 ## License
 
