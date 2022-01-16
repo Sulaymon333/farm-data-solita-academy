@@ -29,7 +29,7 @@ const FarmDetail = () => {
                             Farm statistics
                         </Link>
                         <Link to='/' className='btn btn-primary'>
-                            back home
+                            Back home
                         </Link>
                     </div>
                 </div>

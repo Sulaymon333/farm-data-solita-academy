@@ -24,7 +24,7 @@ const FarmStats = () => {
                     <p>Farm Location: {farmLocations[Number(data.measurements[0].farm_id) - 1]}</p>
                     <div className='btn-container'>
                         <Link to='/' className='btn'>
-                            back home
+                            Back home
                         </Link>
                     </div>
                 </div>
