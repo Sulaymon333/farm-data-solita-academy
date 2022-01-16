@@ -1,4 +1,4 @@
-# Farm data Academy task
+# Farm data Solita Academy task
 
 This is the solution to Solita Academy farm data task. This app is the frontend for displaying data from different farms. It shows all the available farms in the homepage, detail page for each farm and statistics data for each farm as well.
 
