@@ -28,4 +28,4 @@ This project is licensed under the MIT License - see the [LICENSE](./LICENSE) fi
 -   start the server with command `java -jar bin/exercise-server.jar`
 -   You can view OpenApi-documentation from http://localhost:8080
 -   Make your react app points to the right base Url http://localhost:8080
--   For CORS errors set proxy:"http://localhost:8080" in your react app package.json file and add { mode: 'cors' } for your fetch API as well.
+-   For CORS errors set `proxy:"http://localhost:8080"` in your react app package.json file and add `{ mode: 'cors' }` for your fetch API as well.
