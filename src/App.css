@@ -40,3 +40,32 @@
 .farm-info h1 {
     margin-top: -0.25rem;
 }
+
+.flex {
+    display: flex;
+    gap: 0.85rem;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+.flex .farm-info {
+    flex-basis: 200px;
+}
+
+.flex .farm-info {
+    font-size: 0.9rem;
+}
+
+@media only screen and (max-width: 768px) {
+    .flex {
+        flex-direction: column;
+    }
+
+    .flex .farm-info {
+        flex-basis: auto;
+    }
+
+    .btn {
+        font-size: 0.75rem;
+    }
+}
