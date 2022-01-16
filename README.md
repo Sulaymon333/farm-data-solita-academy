@@ -13,7 +13,7 @@ Sulaymon Tajudeen
 ## Tech Stack
 
 -   React - js library for building scalable and performant UI
--   CSS - flex technology for responsive app layout
+-   CSS - flex/grid technology for responsive app layout
 -   React Router DOM - for routing and navigation
 -   Mui Datatable - for a fully responsive table
 
